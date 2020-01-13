@@ -1,5 +1,8 @@
 # Spring-Bearer
 
+![](https://github.com/yannickkirschen/spring-bearer/workflows/Maven%20clean%20install/badge.svg)
+[![](https://jitpack.io/v/yannickkirschen/spring-bearer.svg)](https://jitpack.io/#yannickkirschen/spring-bearer)
+
 *Spring-Bearer* allows you to enable authentication/authorization in a spring application by using JWT tokens.
 
 ## Installation
