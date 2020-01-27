@@ -29,7 +29,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <java.common.version>1.0.0</java.common.version>
-        <spring.boot.version>2.2.1.RELEASE</spring.boot.version>
+        <spring.boot.version>2.2.4.RELEASE</spring.boot.version>
         <jwt.version>0.10.5</jwt.version>
         <log4j.version>1.7.28</log4j.version>
     </properties>
