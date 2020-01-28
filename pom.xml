@@ -3,44 +3,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.yannickkirschen</groupId>
-    <artifactId>spring-bearer</artifactId>
-    <version>1.0.0</version>
+    <parent>
+        <groupId>com.github.yannickkirschen</groupId>
+        <artifactId>pom</artifactId>
+        <version>1.1.1</version>
+    </parent>
 
-    <name>spring-bearer</name>
+    <artifactId>spring-bearer</artifactId>
+    <version>1.1.0-SNAPSHOT</version>
+
     <description>Authorization with bearer token for spring.</description>
     <url>http://www.github.com/yannickkirschen/spring-bearer</url>
 
-    <developers>
-        <developer>
-            <name>Yannick Kirschen</name>
-            <email>github.yannickkirschen@protonmail.com</email>
-        </developer>
-    </developers>
-
-    <issueManagement>
-        <url>https://github.com/yannickkirschen/spring-bearer/issues</url>
-        <system>GitHub</system>
-    </issueManagement>
-
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-
-        <java.common.version>1.0.0</java.common.version>
-        <spring.boot.version>2.2.1.RELEASE</spring.boot.version>
+        <spring.boot.version>2.2.2.RELEASE</spring.boot.version>
         <jwt.version>0.10.5</jwt.version>
-        <log4j.version>1.7.28</log4j.version>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.github.yannickkirschen</groupId>
-            <artifactId>java-common</artifactId>
-            <version>${java.common.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -74,13 +54,6 @@
             <artifactId>jjwt-jackson</artifactId>
             <version>${jwt.version}</version>
             <scope>runtime</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>${log4j.version}</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 
