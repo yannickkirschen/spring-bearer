@@ -2,7 +2,6 @@
 
 ![](https://github.com/yannickkirschen/spring-bearer/workflows/Maven%20clean%20install/badge.svg)
 [![](https://jitpack.io/v/yannickkirschen/spring-bearer.svg)](https://jitpack.io/#yannickkirschen/spring-bearer)
-[![](https://api.dependabot.com/badges/status?host=github&repo=yannickkirschen/spring-bearer)](https://dependabot.com)
 
 *Spring-Bearer* allows you to enable authentication/authorization in a spring application by using JWT tokens.
 
@@ -85,6 +84,5 @@ For the coding style, please refer to the Oracle style guide.
 
 ## License
 
-Copyright (c) 2019, Yannick Kirschen, All rights reserved.
 Licensed under the [MIT License](https://github.com/yannickkirschen/spring-bearer/blob/master/LICENSE).
-Happy forking :fork_and_knife:
+Happy forking :)
